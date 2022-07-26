@@ -109,24 +109,18 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
         onTap: () {
           widget.onKeyboardTap(value);
         },
-        children: <Widget>[
-          Container(
-            alignment: Alignment.center,
-             width: 50,
-            height: 50,
-             child: Text(
-             value,
-             style: TextStyle(
-            fontSize: 26,
-            fontWeight: FontWeight.bold,
-            color: widget.textColor),
-      ),
-    ),
-    ],
-    );
-        
-            
-        
+        child: Container(
+          alignment: Alignment.center,
+          width: 50,
+          height: 50,
+          child: Text(
+            value,
+            style: TextStyle(
+                fontSize: 26,
+                fontWeight: FontWeight.bold,
+                color: widget.textColor),
+          ),
+        ));
 
     // return InkWell(
     //     image: AssetImage('assets/keyboardkeys/keypadButtonBackground.png'),
