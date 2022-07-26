@@ -85,17 +85,17 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
                   onTap: widget.leftButtonFn,
                   child: Container(
                       alignment: Alignment.center,
-                      width: 50,
-                      height: 50,
+                      width: 85,
+                      height: 85,
                       child: widget.leftIcon)),
               _calcButton('0'),
               InkWell(
-                  borderRadius: BorderRadius.circular(80),
+                  borderRadius: BorderRadius.circular(120),
                   onTap: widget.rightButtonFn,
                   child: Container(
                       alignment: Alignment.center,
-                      width: 75,
-                      height: 75,
+                      width: 85,
+                      height: 85,
                       child: widget.rightIcon))
             ],
           ),
@@ -106,7 +106,7 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
 
   Widget _calcButton(String value) {
     return InkWell(
-        borderRadius: BorderRadius.circular(80),
+        borderRadius: BorderRadius.circular(120),
         onTap: () {
           widget.onKeyboardTap(value);
         },
@@ -115,8 +115,8 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
               image: DecorationImage(
                 image: AssetImage('assets/keyboardkeys/keypadButtonBackground.png'),)),
           alignment: Alignment.center,
-          width: 75,
-          height: 75,
+          width: 85,
+          height: 85,
           child: Text(
             value,
             style: TextStyle(
