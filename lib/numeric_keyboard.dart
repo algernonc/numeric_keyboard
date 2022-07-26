@@ -110,11 +110,6 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
           widget.onKeyboardTap(value);
         },
         child: Container(
-            decoration: const BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage('assets/keyboardkeys/keypadButtonBackground.png'),)),
-        ),
-        child: Container(
           alignment: Alignment.center,
           width: 50,
           height: 50,
