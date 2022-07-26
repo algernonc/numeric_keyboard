@@ -48,7 +48,7 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
   Widget build(BuildContext context) {
     return Container(
       height: 450,
-      padding: const EdgeInsets.only(top: 25),
+      padding: const EdgeInsets.only(top: 25, left: 15, right: 15),
       color: Colors.grey.withOpacity(.8),
       alignment: Alignment.center,
       child: Column(
