@@ -104,7 +104,7 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
   }
 
   Widget _calcButton(String value) {
-    return InkWell(
+    return Image(
         image: AssetImage('assets/keyboardkeys/keypadButtonBackground.png'),
         borderRadius: BorderRadius.circular(45),
         onTap: () {
@@ -122,5 +122,24 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
                 color: widget.textColor),
           ),
         ));
+   
+    // return InkWell(
+    //     image: AssetImage('assets/keyboardkeys/keypadButtonBackground.png'),
+    //     borderRadius: BorderRadius.circular(45),
+    //     onTap: () {
+    //       widget.onKeyboardTap(value);
+    //     },
+    //     child: Container(
+    //       alignment: Alignment.center,
+    //       width: 50,
+    //       height: 50,
+    //       child: Text(
+    //         value,
+    //         style: TextStyle(
+    //             fontSize: 26,
+    //             fontWeight: FontWeight.bold,
+    //             color: widget.textColor),
+    //       ),
+    //     ));
   }
 }
