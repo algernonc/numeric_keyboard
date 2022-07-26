@@ -54,7 +54,7 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
           ButtonBar(
             alignment: widget.mainAxisAlignment,
             children: <Widget>[
-              _calcButton('1'),
+              _calcButton('111'),
               _calcButton('2'),
               _calcButton('3'),
             ],
