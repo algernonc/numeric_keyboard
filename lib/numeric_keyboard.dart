@@ -9,7 +9,7 @@ class NumericKeyboard extends StatefulWidget {
   final Color textColor;
 
   /// Display a custom right icon
-  final Icon? rightIcon;
+  final Image? rightIcon;
 
   /// Action to trigger when right button is pressed
   final Function()? rightButtonFn;
