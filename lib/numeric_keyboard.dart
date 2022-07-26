@@ -120,7 +120,7 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
             value,
             style: TextStyle(
                 fontFamily: 'RacingSansOne',
-                fontSize: 15,
+                fontSize: 24,
                 // fontWeight: FontWeight.bold,
                 color: widget.textColor),
           ),
