@@ -48,13 +48,14 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.only(left: 32, right: 32, top: 20),
+      color: Colors.blue,
       alignment: Alignment.center,
       child: Column(
         children: <Widget>[
           ButtonBar(
             alignment: widget.mainAxisAlignment,
             children: <Widget>[
-              _calcButton('111'),
+              _calcButton('1'),
               _calcButton('2'),
               _calcButton('3'),
             ],
