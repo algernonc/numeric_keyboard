@@ -115,8 +115,8 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
               image: DecorationImage(
                 image: AssetImage('assets/keyboardkeys/keypadButtonBackground.png'),)),
           alignment: Alignment.center,
-          width: 50,
-          height: 50,
+          // width: 50,
+          // height: 50,
           child: Text(
             value,
             style: TextStyle(
