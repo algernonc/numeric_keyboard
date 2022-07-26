@@ -105,6 +105,7 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
 
   Widget _calcButton(String value) {
     return InkWell(
+        image: AssetImage('assets/keyboardkeys/keypadButtonBackground.png'),
         borderRadius: BorderRadius.circular(45),
         onTap: () {
           widget.onKeyboardTap(value);
