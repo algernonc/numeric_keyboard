@@ -80,9 +80,6 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
             alignment: widget.mainAxisAlignment,
             children: <Widget>[
               InkWell(
-          decoration: const BoxDecoration(
-          image: DecorationImage(
-          image: AssetImage('assets/keyboardkeys/keypadButtonBackground.png'),)),
                   borderRadius: BorderRadius.circular(45),
                   onTap: widget.leftButtonFn,
                   child: Container(
