@@ -15,7 +15,7 @@ class NumericKeyboard extends StatefulWidget {
   final Function()? rightButtonFn;
 
   /// Display a custom left icon
-  final Icon? leftIcon;
+  final Image? leftIcon;
 
   /// Action to trigger when left button is pressed
   final Function()? leftButtonFn;
@@ -80,6 +80,9 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
             alignment: widget.mainAxisAlignment,
             children: <Widget>[
               InkWell(
+          decoration: const BoxDecoration(
+          image: DecorationImage(
+          image: AssetImage('assets/keyboardkeys/keypadButtonBackground.png'),)),
                   borderRadius: BorderRadius.circular(45),
                   onTap: widget.leftButtonFn,
                   child: Container(
