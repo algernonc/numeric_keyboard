@@ -48,8 +48,8 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
   Widget build(BuildContext context) {
     return Container(
       height: 450,
-      padding: const EdgeInsets.only(bottom: 25, left: 25, right: 25),
-      color: Colors.grey.withOpacity(.8),
+      padding: const EdgeInsets.only(bottom: 20, left: 25, right: 25),
+      color: Colors.grey.withOpacity(.5),
       alignment: Alignment.center,
       child: Column(
         children: <Widget>[
@@ -121,7 +121,7 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
             value,
             style: TextStyle(
                 fontFamily: 'RacingSansOne',
-                fontSize: 30,
+                fontSize: 40,
                 // fontWeight: FontWeight.bold,
                 color: widget.textColor),
           ),
